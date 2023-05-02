@@ -4,6 +4,7 @@ body{
     padding: 0px;
     max-width: 100%;
     background: linear-gradient(to top right,#034C8C, #85D3F2, #35D0F2);
+    background-attachment: fixed;
 }
 
 header{
@@ -20,19 +21,20 @@ h1{
     font-size: 45px;
 }
 
-.Avenida{
-    display: block;
-    padding-left: 5px;
-    clear: both;
-}
-
 h2{
     text-align: center;
+    display: block;
 }
 
-.container{
-    max-width: 450px;
-    border: 2px solid black;
-    text-align: center;
-    clear: both;
+.Avenida{
+    padding-left: 10px;
+    display: inline-block;
+    align-items: center;
+}
+
+p{
+    display: inline-block;
+    width: 180px;
+    padding-left: 10px;
+    align-items: center;
 }
